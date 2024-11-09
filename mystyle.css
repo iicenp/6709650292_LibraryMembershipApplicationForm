@@ -1,0 +1,35 @@
+@import url('https://fonts.googleapis.com/css2?family=Fira+Sans:ital,wght@1,700&display=swap');
+body{
+    background-color: #efbdbd;
+}
+.form-container {
+    width: 900px;
+    margin: 0 auto;
+}
+fieldset{
+    background-color: #f7dfdf;
+    border-radius: 30px;
+    height: fit-content;
+    width: 900px;
+}
+h1{
+    text-align: center;
+    font-family: Fira+Sans;
+}
+.submit-button {
+    display: block;
+    margin-left: auto;
+    width: 70px;
+    height: 40px;
+    border-radius: 30px;
+    background-color: whitesmoke;
+    border: none;
+    cursor: pointer;
+}      
+.submit-button:hover {
+    background-color: lavender; 
+  }
+
+
+
+
