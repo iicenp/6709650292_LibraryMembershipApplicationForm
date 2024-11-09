@@ -11,27 +11,27 @@
     <div class="form-container">
     <form>
         <fieldset><br>
-            <label for="firstthai">ชื่อ:</label>
-            <input type="text" id="firstthai" name="firstthai">
-            <label for="lastthai">นามสกุล:</label>
-            <input type="text" id="lastthai" name="lastthai"><br><br>
-            <label for="firsteng">First name:</label>
-            <input type="text" id="firsteng" name="firsteng">
-            <label for="lasteng">Last name:</label>
-            <input type="text" id="lasteng" name="lasteng"><br><br>
+            <label for="firstthai">ชื่อ <span class="required">*</span> :</label>
+            <input type="text" id="firstthai" name="firstthai" required>
+            <label for="lastthai">นามสกุล <span class="required">*</span> :</label>
+            <input type="text" id="lastthai" name="lastthai" required><br><br>
+            <label for="firsteng">First name <span class="required">*</span> :</label>
+            <input type="text" id="firsteng" name="firsteng" required>
+            <label for="lasteng">Last name <span class="required">*</span> :</label>
+            <input type="text" id="lasteng" name="lasteng" required><br><br>
 
 
-            <label for="gender">เพศ:</label>
-            <input type="radio" id="male" name="gender" value="male">
+            <label for="gender">เพศ <span class="required">*</span> :</label>
+            <input type="radio" id="male" name="gender" value="male" required>
             <label for="male">ชาย</label>
-            <input type="radio" id="female" name="gender" value="female">
+            <input type="radio" id="female" name="gender" value="female" required>
             <label for="female">หญิง</label><br><br>
 
-            <label for="studentid">รหัสนักศึกษา:</label>
-            <input type="text" id="studentid" name="studentid"><br><br>
+            <label for="studentid">รหัสนักศึกษา <span class="required">*</span> :</label>
+            <input type="text" id="studentid" name="studentid" required><br><br>
 
-            <label for="faculty">คณะที่ศึกษา:</label>
-            <select id="faculty" name="faculty">
+            <label for="faculty">คณะที่ศึกษา <span class="required">*</span> :</label>
+            <select id="faculty" name="faculty" required>
                 <option value="all">คณะทั้งหมด</option>
                 <option value="LW">คณะนิติศาสตร์</option>
                 <option value="BBA">คณะพาณิชยศาสตร์และการบัญชี</option>
@@ -54,13 +54,13 @@
                 <option value="CICM">คณะวิทยาลัยแพทยศาสตร์นานาชาติจุฬาภรณ์ </option>
             </select><br><br>
 
-            <label for="email">ที่อยู่อีเมล:</label>
-            <input type="email" id="email" name="email"><br><br>
+            <label for="email">ที่อยู่อีเมล <span class="required">*</span> :</label>
+            <input type="email" id="email" name="email" required><br><br>
 
-            <label for="birthday">วันเดือนปีเกิด:</label>
-            <input type="date" id="birthday" name="birthday"><br><br>
+            <label for="birthday">วันเดือนปีเกิด <span class="required">*</span> :</label>
+            <input type="date" id="birthday" name="birthday" required><br><br>
 
-            <label for="book">ประเภทของหนังสือที่สนใจ</label><br>
+            <label for="book">ประเภทของหนังสือที่สนใจ <span class="required">*</span> </label><br>
             <input type="checkbox" name="book" value="Non-fiction">หนังสือสารคดี<br>
             <input type="checkbox" name="book" value="Fiction">หนังสือบันเทิงคดี<br>
             <input type="checkbox" name="book" value="Reference Books">หนังสืออ้างอิง<br>
@@ -70,12 +70,11 @@
             <input type="checkbox" name="book" value="Art & Design Books">หนังสือศิลปะและการออกแบบ<br>
             <input type="checkbox" name="book" value="Religious & Philosophy Books">หนังสือศาสนาและปรัชญา<br><br>
 
-            <label for="information">ต้องการรับข้อมูลข่าวสารของห้องสมุดทางอีเมลหรือไม่</label><br>
-            <input type="radio" id="want" name="information" value="want">
+            <label for="information">ต้องการรับข้อมูลข่าวสารของห้องสมุดทางอีเมลหรือไม่ <span class="required">*</span> </label><br>
+            <input type="radio" id="want" name="information" value="want" required>
             <label for="want">ต้องการ</label>
-            <input type="radio" id="dont want" name="information" value="dont want">
+            <input type="radio" id="dont want" name="information" value="dont want" required>
             <label for="dont want">ไม่ต้องการ</label><br><br>
-
         </fieldset><br>
         <input type="submit" value="Submit" class="submit-button">
     </form>
